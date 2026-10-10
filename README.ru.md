@@ -1,6 +1,6 @@
-<p align="center"><img src="logo.png" alt="Hui Ning IP" width="150"></p>
-
 🌐 [中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · **Русский**
+
+<p align="center"><img src="logo.png" alt="Hui Ning IP" width="150"></p>
 
 # Hague Design System · Практический навык: международная регистрация промышленных образцов по Гаагской системе
 
