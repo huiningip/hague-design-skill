@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="Hui Ning IP" width="150"></p>
+
 🌐 [中文](README.md) · **繁體中文** · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
 
 # Hague Design System · 海牙體系外觀設計國際註冊實務技能

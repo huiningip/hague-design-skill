@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="Hui Ning IP" width="150"></p>
+
 🌐 [中文](README.md) · [繁體中文](README.zh-Hant.md) · [English](README.en.md) · [Français](README.fr.md) · [Español](README.es.md) · [العربية](README.ar.md) · **日本語** · [Русский](README.ru.md)
 
 # Hague Design System · ハーグ体系 意匠の国際登録 実務スキル
