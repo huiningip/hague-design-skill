@@ -11,7 +11,6 @@ author: 辉宁知识产权
 # allowed-tools：（选填）本技能答复前需经 ima 知识库 MCP 检索条文/资料，并经 WebFetch / WebSearch 实时核对 WIPO 费用页；
 #   设白名单会切断未列出的 MCP 工具调用（同 trademark-infringement-analysis 处置），故不启用。
 #   如需限定，填 Read, Grep, Glob, WebFetch, WebSearch 并补 ima、iphouse 的 MCP 工具名。
-# 版本历史与技能规范：见 @references/changelog.md
 agent_created: true
 related-skills:
   - patent-exam-design-intl: 中国审查程序+法律适用（专利审查指南第六部分，可选中国模块）
@@ -280,7 +279,6 @@ related-skills:
 | @references/09-pitfalls-and-failure-modes.md | 技能衍生资料·中文 | 通用（含中国项） | 18 项实务陷阱清单 + 13 项失败模式 if-then 处置（自 五 5.3/5.4 移出）；**非官方文件**，数值以 三 §3.x 与 @references/10-cnipa-bridge.md 的单一事实源为准 |
 | @references/10-cnipa-bridge.md | 中国衔接专章·中文 | 可选｜中国专章 | 中国声明、CNIPA 审查与救济、转交与系统操作、分案、CNY 侧费用的**唯一权威源**（编号保留原 §X）；非中国从业者可整体跳过 |
 | @references/11-file-index.md | 体积与行号索引·中文 | 通用 | 参考资料体积基准与大文件章节→行号定位 |
-| @references/changelog.md | 版本历史与开发规范·中文 | 通用 | 技能版本治理的唯一权威源 |
 | 在线权威原文（协定全文） | WIPO Lex·中英文同等作准 | 通用 | 中文 https://www.wipo.int/wipolex/zh/text/384275 ｜ 英文 https://www.wipo.int/wipolex/en/text/285214 |
 | 《专利业务办理系统用户操作手册（外观设计国际申请）》 | 系统操作手册·未随技能分发 | 可选｜中国专章 | 经 CNIPA 官网在线获取；操作要点已摘要于 @references/10-cnipa-bridge.md §九 |
 
@@ -312,7 +310,6 @@ related-skills:
 | §4.14 CNIPA 系统操作流程 | @references/10-cnipa-bridge.md §九 | 新申请 4 步、通知书 3 步、国家程序办理 |
 | §4.16 流程二（指定中国审查） | @references/10-cnipa-bridge.md §十一 | 指定中国审查流程图 |
 | 附录A Q1–Q3 | @references/10-cnipa-bridge.md §十二 | 自指定、中文版本、与中国外观设计专利对比 |
-| 版本历史与技能规范 | @references/changelog.md | 版本记录、治理约定与开发规范；更早版本处理约定见该文件 |
 
 ---
 
@@ -338,7 +335,6 @@ related-skills:
 | 异常 / 失败处置 | 5.3、5.4 | @references/09 | — | — |
 | 数据时效与复核 | 3.0 | WIPO 官方页面（实时） | — | — |
 | 定位参考资料 / 大文件行号 | 3.13 | @references/11-file-index.md | — | — |
-| 版本历史与开发规范 | 文末 | @references/changelog.md | — | — |
 
 ### 4.1 快速决策树（TL;DR）
 
@@ -639,7 +635,6 @@ related-skills:
 - 中国参数（声明、CNIPA 审查与救济、转交与系统操作、分案、CNY 侧费用） → @references/10-cnipa-bridge.md
 - 陷阱与失败模式（18 + 13 项） → @references/09-pitfalls-and-failure-modes.md
 - 参考资料体积与行号定位 → @references/11-file-index.md
-- 版本历史、技能规范与治理约定 → @references/changelog.md
 - 作业流程细节 → 各 §4.x（控制面保留流程图与 CHECKPOINT 检查点）
 
 **强制加载条款**：凡需给出**金额 / 期限 / 声明 / 生效状态**结论时，必须先加载上表对应权威源文件（或按 三 3.0 核验入口实时核验），**不得凭记忆、快照值或搜索引擎缓存作答**；未加载即输出视为违规。控制面中的指针仅供定位，不构成数据依据。
@@ -647,12 +642,12 @@ related-skills:
 **分层优先级（冲突时按层适用，层内取更严格者）**：
 - ① 交付格式与输出契约类（六 6.4 约束A/B、星标体系、禁 Markdown 表格）——以 `SKILL.md` 为准；
 - ② 判断规则类（流程规则、判定口径、法条与指令口径）——以 `SKILL.md` 各节为准，references 为展开细则；
-- ③ 事实与数据类（费用、期限、声明、CNY 参数、版本）——以本清单指定的唯一权威源文件为唯一来源；
-- ④ 同层互斥（两个同级文件规则互斥）——取**更严格者**，并在 @references/changelog.md 登记修正，不得以「某文件为准」相互覆盖。
+- ③ 事实与数据类（费用、期限、声明、CNY 参数）——以本清单指定的唯一权威源文件为唯一来源；
+- ④ 同层互斥（两个同级文件规则互斥）——取**更严格者**，并同步修正被覆盖的一方，不得以「某文件为准」相互覆盖。
 
 **横向与纵向须区分（防误读）**：同一纵向链（依次展开、逐层细化）的文件**不属「同层互斥」**。本技能的纵向链为「**`SKILL.md` 各节 ＞ references 展开文件 ＞（无 templates）**」；法律文本层级另按「**官方在线文本（WIPO/CNIPA）＞ references 内副本 ＞ `SKILL.md` 提示性重述**」适用。展开文件与 `SKILL.md` 不一致时，以 `SKILL.md`（数据类以唯一权威源）为准，并立即修正展开文件。
 
-**平台元数据边界（不得越权）**：`_meta.json` / `_user_meta.json` 由平台在**发布／导入时写入**，技能**不得手工创建**——手工创建会写入**伪造的 ownerId 与发布时间戳**。本技能不设、亦不应新增任何"由平台管理的元数据文件"；版本与治理的唯一权威源为 @references/changelog.md。
+**平台元数据边界（不得越权）**：`_meta.json` / `_user_meta.json` 由平台在**发布／导入时写入**，技能**不得手工创建**——手工创建会写入**伪造的 ownerId 与发布时间戳**。本技能不设、亦不应新增任何"由平台管理的元数据文件"。
 
 ---
 
@@ -769,12 +764,11 @@ A：审查局缔约方（如中国、美国、日本、韩国、欧盟等）对�
 | 11 | 官方链接可达性（费用计算器／费用表／单独指定费／声明页／DesignDB／DAS） | 三 3.11 | 各官方站点 | ⚠️ 待做连通性检查（本轮仅核 fees/sched、fees/individ-fee、declarations、das/en） |
 | 12 | 参考文件版本（细则 2026-07-01 生效／行政规程 2025-07-17 生效／指南 202512） | 三 3.1、三 3.12 | WIPO 官网现行版本 | ⚠️ 待核对是否已有更新版本 |
 | 13 | 内置计算器脚本快照（`scripts/fee_data.json`：费率、14 个缔约方单独指定费、减费档与特例） | 三 3.4 脚本块 + 脚本数据文件 | 同 #2、#3（WIPO 费用表／单独指定费明细页） | ✅ 2026-09-24（与 #2、#3 同源核验；脚本自检：JP 每项设计、US 小实体＋第 2 部分、KR 类别特例、OAPI 交存＋LDC、CA 第 2 次续展免收、MX 减免档；未列/未内置者回「无」并以码 3 退出；过期拒绝计算） |
-| 14 | 下沉章节编号保留一致性（§3.13 ↔ 10-cnipa-bridge.md 各节「（原 §X）」标注） | 三 3.13 | 本技能重构记录 | ✅ 2026-10-09（v1.10.0 重构同步） |
-| 15 | 版本同步点（frontmatter `version` ↔ 文末版本块 ↔ changelog.md「当前版本」与表首行） | 文末版本块、@references/changelog.md | 本技能治理约定（changelog §三） | ✅ 2026-10-09（v1.10.8 三处一致） |
+| 14 | 下沉章节编号保留一致性（§3.13 ↔ 10-cnipa-bridge.md 各节「（原 §X）」标注） | 三 3.13 | — | ✅ 2026-10-09（v1.10.0 重构同步） |
+| 15 | 版本同步点（frontmatter `version` ↔ 文末版本块） | 文末版本块 | — | ✅ 2026-10-11（v1.10.8 两处一致） |
 
 **校验动作**：① 打开来源页或来源文件；② 与「单一事实源位置」所列数值逐项比对；③ 不一致时先改单一事实源（中国参数先改 @references/10-cnipa-bridge.md），再同步 四/五/六 中的重述处；④ 更新「本轮校验」列日期；⑤ 涉及费用时，同步更新 `scripts/fee_data.json` 的费率与 `meta.verified_on`，并跑 `--show-snapshot` 与至少一个已知算例回归（如中国单件申请＝996 CHF）。清单中标注 ⚠️ 的两行（11/12）为**尚未在线核对**项，未经核对前不得对外以确定语气引用相应数值。
 
 ---
 
 > **版本**：v1.10.8
-> **版本历史、技能规范与治理约定**：见 @references/changelog.md
