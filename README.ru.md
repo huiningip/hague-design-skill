@@ -8,7 +8,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # свой ката�
 ## Ключевые механизмы
 
 1. **Универсальное ядро**: международная фаза ВОИС (общая для всех договаривающихся сторон) — основная часть; глава о CNIPA/КНР опциональна и может быть полностью пропущена специалистами вне КНР;
-2. **Единый источник права и данных**: изменчивые данные (пошлины, заявления) сходятся к единственному авторитетному источнику; история версий и индекс файлов централизованы (`changelog.md`, `11-file-index.md`) — никаких расхождений;
+2. **Единый источник права и данных**: изменчивые данные (пошлины, заявления) сходятся к единственному авторитетному источнику; индекс файлов централизован (`11-file-index.md`) — никаких расхождений;
 3. **Постепенное раскрытие**: объёмные тексты (включая Руководство по Гаагской системе на 286 КБ) лежат в `references/`, загружаются по мере необходимости и снабжены индексом по строкам — контекст не перегружается;
 4. **«Нет» при отсутствии данных**: сомнительная информация помечается сразу — никаких выдуманных статей, сроков и сумм; в ответах никогда не используются таблицы Markdown (только списки и определения в строку).
 
@@ -71,7 +71,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # свой ката�
 ```text
 HAGUE-SKILLS/                        # Корень репозитория = корень навыка (репозиторий одного навыка)
 ├── SKILL.md                         # Управляющий слой: роль / задача / контекст / процесс / правила / вывод
-├── references/                      # 12 файлов знаний (включая главу о КНР, changelog, индекс)
+├── references/                      # 11 файлов знаний (включая главу о КНР и индекс)
 ├── scripts/                         # Скрипты навыка (расчёт пошлин, помощник) + sync_to_local.py
 ├── README.md                        # 简体中文 (по умолчанию)
 ├── README.zh-Hant.md                # 繁體中文

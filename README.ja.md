@@ -8,7 +8,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # 任意の skills �
 ## 中核の仕組み
 
 1. **世界共通の本体**：WIPO 国際段階（すべての締約国に共通）を本体とし、CNIPA／中国連携は任意の章として中国以外の実務家が全面的に省略可能；
-2. **法源とデータの単一管理**：費用・宣言などの変動データは唯一の権威ソースに収斂し、版履歴とファイル索引を一元管理（`changelog.md`、`11-file-index.md`）して口径のずれを防止；
+2. **法源とデータの単一管理**：費用・宣言などの変動データは唯一の権威ソースに収斂し、ファイル索引を一元管理（`11-file-index.md`）して口径のずれを防止；
 3. **段階的開示**：大部の原文（286 KB の「ハーグ体系ガイド」を含む）は `references/` に置き、必要時に読み込み、行番号索引で位置特定——コンテキストを圧迫しない；
 4. **見つからなければ「無」**：不確かな情報はそのまま明示し、条項・期限・費用の数値を捏造しない；提出する回答では Markdown 表を使用しない（箇条書きとインライン定義で表現）。
 
@@ -71,7 +71,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # 任意の skills �
 ```text
 HAGUE-SKILLS/                        # リポジトリ直下 = スキル直下（単一スキルのリポジトリ）
 ├── SKILL.md                         # 制御面：役割／タスク／コンテキスト／プロセス／ルール／出力形式
-├── references/                      # 12 のナレッジファイル（任意の中国章・changelog・索引を含む）
+├── references/                      # 11 のナレッジファイル（任意の中国章・索引を含む）
 ├── scripts/                         # スキル用スクリプト（費用計算・取得ヘルパー）＋ sync_to_local.py
 ├── README.md                        # 简体中文（既定）
 ├── README.zh-Hant.md                # 繁體中文

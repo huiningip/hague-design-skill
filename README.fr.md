@@ -8,7 +8,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ Copiez le dossier entier du dépôt dans votre répertoire de skills (par ex. `~
 ## Mécanismes clés
 
 1. **Cœur universel** : la phase internationale de l'OMPI (commune à toutes les parties contractantes) constitue le corps principal ; le chapitre OMPIC/Chine est optionnel et peut être ignoré par les praticiens hors Chine ;
-2. **Source juridique et données à point unique** : les données volatiles (taxes, déclarations) convergent vers une source d'autorité unique ; historique des versions et index des fichiers centralisés (`changelog.md`, `11-file-index.md`) pour éviter toute divergence ;
+2. **Source juridique et données à point unique** : les données volatiles (taxes, déclarations) convergent vers une source d'autorité unique ; l'index des fichiers est centralisé (`11-file-index.md`) pour éviter toute divergence ;
 3. **Divulgation progressive** : les textes longs (dont le Guide du système de La Haye de 286 Ko) résident dans `references/`, chargés à la demande avec un index par numéro de ligne, sans saturer le contexte ;
 4. **« Aucune donnée » faute de source** : toute information incertaine est signalée comme telle — aucune disposition, aucun délai, aucun montant inventé ; les réponses livrées n'utilisent jamais de tableaux Markdown (listes et définitions en ligne à la place).
 
@@ -71,7 +71,7 @@ Copiez le dossier entier du dépôt dans votre répertoire de skills (par ex. `~
 ```text
 HAGUE-SKILLS/                        # Racine du dépôt = racine de la compétence (dépôt mono-compétence)
 ├── SKILL.md                         # Plan de contrôle : rôle / tâche / contexte / processus / règles / sortie
-├── references/                      # 12 fichiers de connaissances (dont chapitre Chine optionnel, changelog, index)
+├── references/                      # 11 fichiers de connaissances (dont chapitre Chine optionnel et index)
 ├── scripts/                         # Scripts de la compétence (calculateur, assistant) + sync_to_local.py
 ├── README.md                        # 简体中文 (par défaut)
 ├── README.zh-Hant.md                # 繁體中文

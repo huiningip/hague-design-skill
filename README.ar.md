@@ -10,7 +10,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -64,7 +64,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # مجلد skills م
 ## الآليات الأساسية
 
 1. **نواة عالمية موحّدة**: المرحلة الدولية لدى الويبو (المشتركة بين جميع الأطراف المتعاقدة) هي المتن الأساسي؛ وفصل CNIPA/الصين اختياري ويمكن للممارسين خارج الصين تخطّيه بالكامل؛
-2. **مصدر قانوني وبيانات من نقطة واحدة**: تتجمّع البيانات المتغيّرة (الرسوم والإعلانات) في مصدر موثوق وحيد، مع تاريخ الإصدارات وفهرس الملفات في مكان واحد (`changelog.md` و`11-file-index.md`) لتجنّب تباين الأرقام؛
+2. **مصدر قانوني وبيانات من نقطة واحدة**: تتجمّع البيانات المتغيّرة (الرسوم والإعلانات) في مصدر موثوق وحيد، مع فهرس الملفات في مكان واحد (`11-file-index.md`) لتجنّب تباين الأرقام؛
 3. **الإفصاح التدريجي**: النصوص الطويلة (ومنها دليل نظام لاهاي بحجم 286 كيلوبايت) تُوضع في `references/` وتُحمَّل عند الحاجة مع فهرس بأرقام الأسطر، دون إثقال السياق؛
 4. **«لا يوجد» عند تعذّر البيانات**: تُوسم المعلومات غير المؤكدة فورًا — لا اختلاق لمواد أو مواعيد أو مبالغ؛ ولا تُستخدم جداول Markdown في الردود المسلَّمة (بل قوائم وتعريفات سطرية).
 
@@ -73,7 +73,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # مجلد skills م
 ```text
 HAGUE-SKILLS/                        # جذر المستودع = جذر المهارة (مستودع مهارة واحدة)
 ├── SKILL.md                         # لوحة التحكم: الدور / المهمة / السياق / العملية / القواعد / الإخراج
-├── references/                      # 12 ملف معرفة (يشمل فصل الصين الاختياري وchangelog والفهرس)
+├── references/                      # 11 ملف معرفة (يشمل فصل الصين الاختياري والفهرس)
 ├── scripts/                         # سكربتات المهارة (حاسبة الرسوم وأداة الجلب) + sync_to_local.py
 ├── README.md                        # 简体中文 (افتراضي)
 ├── README.zh-Hant.md                # 繁體中文

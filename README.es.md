@@ -8,7 +8,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ Copie la carpeta completa del repositorio en su directorio de skills (p. ej. `~/
 ## Mecanismos clave
 
 1. **Núcleo universal**: la fase internacional de la OMPI (común a todas las partes contratantes) es el cuerpo principal; el capítulo OMPIC/China es opcional y los profesionales fuera de China pueden omitirlo por completo;
-2. **Fuente jurídica y de datos única**: los datos volátiles (tasas, declaraciones) convergen en una única fuente autorizada; el historial de versiones y el índice de archivos se centralizan (`changelog.md`, `11-file-index.md`) para evitar divergencias;
+2. **Fuente jurídica y de datos única**: los datos volátiles (tasas, declaraciones) convergen en una única fuente autorizada; el índice de archivos se centraliza (`11-file-index.md`) para evitar divergencias;
 3. **Divulgación progresiva**: los textos extensos (incluida la Guía del sistema de La Haya, 286 KB) residen en `references/`, se cargan a demanda y disponen de índice por número de línea, sin saturar el contexto;
 4. **«Ninguno» cuando no hay fuente**: la información dudosa se señala de inmediato — sin disposiciones, plazos ni importes inventados; las respuestas entregadas nunca usan tablas Markdown (listas y definiciones en línea en su lugar).
 
@@ -71,7 +71,7 @@ Copie la carpeta completa del repositorio en su directorio de skills (p. ej. `~/
 ```text
 HAGUE-SKILLS/                        # Raíz del repositorio = raíz de la skill (repositorio de una skill)
 ├── SKILL.md                         # Plano de control: rol / tarea / contexto / proceso / reglas / salida
-├── references/                      # 12 archivos de conocimiento (incl. capítulo China opcional, changelog, índice)
+├── references/                      # 11 archivos de conocimiento (incl. capítulo China opcional e índice)
 ├── scripts/                         # Scripts de la skill (calculadora, asistente) + sync_to_local.py
 ├── README.md                        # 简体中文 (predeterminado)
 ├── README.zh-Hant.md                # 繁體中文

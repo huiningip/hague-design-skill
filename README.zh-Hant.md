@@ -8,7 +8,7 @@
 > *"Ask once. Get a filing-ready Hague design practice answer."*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # 指定技能目錄
 ## 核心機制
 
 1. **全球通用主體**：以 WIPO 國際階段程序（各締約方通用）為主線；中國（CNIPA）銜接為可選專章，非中國從業者可整體跳過；
-2. **法源與資料單點維護**：費用、聲明等易變資料收斂到唯一權威源，版本歷史與檔案索引集中治理（`changelog.md`、`11-file-index.md`），避免多處口徑漂移；
+2. **法源與資料單點維護**：費用、聲明等易變資料收斂到唯一權威源，檔案索引集中治理（`11-file-index.md`），避免多處口徑漂移；
 3. **漸進式揭露**：大部頭原文（含 286 KB 的《海牙體系指南》）放在 `references/`，按需載入並配行號索引，不撐上下文；
 4. **查不到就回「無」**：無把握的資訊直接標註，不編造條款、期限與費用數字；交付答覆不使用 Markdown 表格（以清單與行內定義呈現）。
 
@@ -71,7 +71,7 @@ py -3 scripts/sync_to_local.py --target D:/path/to/skills   # 指定技能目錄
 ```text
 HAGUE-SKILLS/                        # 倉庫根目錄 = 技能根目錄（單技能倉庫）
 ├── SKILL.md                         # 控制面：角色／任務／上下文／流程／規則／輸出格式
-├── references/                      # 12 份知識庫（含可選中國專章、版本記錄與檔案索引）
+├── references/                      # 11 份知識庫（含可選中國專章與檔案索引）
 ├── scripts/                         # 技能腳本（費用計算、抓取助手）＋ sync_to_local.py（一鍵同步腳本）
 ├── README.md                        # 簡體中文（預設）
 ├── README.zh-Hant.md                # 繁體中文（本檔案）

@@ -8,7 +8,7 @@
 > *「一句话问清程序，拿回一份能直接用的海牙外观设计实务方案。」*
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)](references/changelog.md)
+![Version](https://img.shields.io/badge/version-1.10.8-blue.svg)
 ![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)
 [![Hague Members](https://img.shields.io/badge/Hague%20Members-83-green)](https://www.wipo.int/en/web/hague-system)
 ![No-Fabrication](https://img.shields.io/badge/Principle-No--Fabrication-orange)
@@ -62,7 +62,7 @@ Copy the whole repository folder into your skills directory (e.g. `~/.workbuddy/
 ## Core mechanisms
 
 1. **Globally neutral core**: the WIPO international phase (common to all contracting parties) is the main body; the CNIPA/China bridge is an optional chapter that non-China practitioners can skip entirely;
-2. **Single-point legal source and data**: volatile data such as fees and declarations converges to a single authoritative source, with version history and a file index kept in one place (`changelog.md`, `11-file-index.md`) to avoid divergent figures;
+2. **Single-point legal source and data**: volatile data such as fees and declarations converges to a single authoritative source, with a file index kept in one place (`11-file-index.md`) to avoid divergent figures;
 3. **Progressive disclosure**: long-form texts (including the 286 KB Guide to the Hague System) live in `references/`, load on demand and are navigable via a line-number index, without blowing up the context window;
 4. **"None" when not found**: uncertain information is flagged directly — no invented provisions, deadlines or fee figures; delivered answers never use Markdown tables (lists and inline definitions instead).
 
@@ -71,7 +71,7 @@ Copy the whole repository folder into your skills directory (e.g. `~/.workbuddy/
 ```text
 HAGUE-SKILLS/                        # Repo root = skill root (single-skill repository)
 ├── SKILL.md                         # Control plane: role / task / context / process / rules / output
-├── references/                      # 12 knowledge files (incl. optional China chapter, changelog, file index)
+├── references/                      # 11 knowledge files (incl. optional China chapter and file index)
 ├── scripts/                         # Skill scripts (fee calculator, fetch helper) + sync_to_local.py
 ├── README.md                        # 简体中文 (default)
 ├── README.zh-Hant.md                # 繁體中文
